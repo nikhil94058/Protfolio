@@ -106,7 +106,7 @@ export default function ClassicTemplate({ data }: any) {
           <section id="skills" className="py-20 bg-gray-950 border-b border-gray-800 scroll-mt-0">
              <div className="max-w-5xl mx-auto px-6 md:px-12 w-full">
               <SectionTitle title="Skills" />
-              <Skills skills={data.skills} />
+              <Skills  />
             </div>
           </section>
 

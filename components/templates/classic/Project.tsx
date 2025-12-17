@@ -87,8 +87,8 @@ const ProjectCard = ({ project, index }: { project: Project; index: number }) =>
   
   // 2. Exception Handling / Validation Helper
   // Checks if the string exists AND is not just empty whitespace
-  const hasGithub = project.github && project.github.trim().length > 0;
-  const hasLink = project.link && project.link.trim().length > 0;
+  const hasGithub = project.github && project.github.trim().length > 2;
+  const hasLink = project.link && project.link.trim().length > 2;
 
   return (
     <motion.div

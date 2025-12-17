@@ -139,6 +139,7 @@ export const portfolioData: PortfolioData = {
       "Built a scalable full-stack platform connecting food donors with NGOs using geolocation-based matching and real-time availability tracking. Implemented secure stateless authentication with Spring Security, JWT, and BCrypt with role-based access. Designed RESTful APIs following MVC architecture and optimized MongoDB queries. Developed a responsive Angular SPA with lazy loading, route guards, HTTP interceptors, and Google Maps integration.",
     tech: ["Angular", "Spring Boot", "Java", "MongoDB", "JWT", "BCrypt", "REST API", "Google Maps API"],
     github: "https://github.com/nikhil94058/EcoFood",
+    link:"2",
   },
   {
     title: "LandSol – Decentralized Land Management DApp",
@@ -162,6 +163,7 @@ export const portfolioData: PortfolioData = {
       "Built a decentralized medical record system using Solidity smart contracts and IPFS for secure, role-based prescription storage. Enabled encrypted prescription sharing between doctors and patients with on-chain verification. Developed a RAG Chatbot for medical queries and enhanced RDP security with encryption, multi-factor authentication, and session monitoring.",
     tech: ["Solidity", "Ethereum", "React.js", "Web3.js", "Tailwind CSS", "IPFS", "RAG Chatbot", "Encryption", "MFA"],
     github: "https://github.com/nikhil94058/Medicare",
+    link:"2",
   },
   {
     title: "Nirbhaya – Emergency Voice Detection System",
@@ -169,6 +171,7 @@ export const portfolioData: PortfolioData = {
       "Developed an emergency voice detection system that alerts SOS contacts in real-time for women’s safety. Integrated IoT sensors and mobile notifications for immediate response.",
     tech: ["IoT", "React Native", "Python", "AWS", "Push Notifications"],
     github: "https://github.com/nikhil94058/Nirbhaya",
+    link:"2",
   },
   {
     title: "JalChakshu – Crowdsourced Water Management System",
@@ -176,6 +179,7 @@ export const portfolioData: PortfolioData = {
       "Built a web platform to monitor water availability and quality through crowdsourced data. Visualized water metrics on interactive maps and implemented alert system for anomalies.",
     tech: ["React.js", "Leaflet.js", "PostgreSQL", "Python", "Geospatial Analysis"],
     github: "https://github.com/nikhil94058/JalChakshu",
+    link:"2",
   },
   {
     title: "Expresso – Club Website",
@@ -191,6 +195,7 @@ export const portfolioData: PortfolioData = {
       "Built a MERN + Redux-based university management system for tracking students, courses, and grades. Integrated role-based access and analytics dashboards.",
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Redux", "Tailwind CSS"],
     github: "https://github.com/nikhil94058/University-Management-System",
+    link:"2",
   },
 ],
 
