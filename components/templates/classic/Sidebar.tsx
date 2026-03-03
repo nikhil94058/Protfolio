@@ -13,7 +13,7 @@ export default function SideNav({ data }: { data?: any }) {
     { name: "Skills", href: "#skills", icon: <FaCode /> }, 
     { name: "Education", href: "#education", icon: <FaGraduationCap /> },
     { name: "Contact", href: "#contact", icon: <FaEnvelope /> },
-    { name: "Resume", href: "/resume.pdf", icon: <FaFileAlt />, isExternal: true },
+    { name: "Resume", href: "/resume.pdf", icon: <FaFileAlt />, isExternal: true, isDownload: true },
   ];
 
   return (

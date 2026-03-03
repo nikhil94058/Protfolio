@@ -97,6 +97,22 @@ export const portfolioData: PortfolioData = {
     ],
   },
   experience: [
+
+
+
+{
+      company: "StackCart",
+      role: "Software Engineering Intern",
+      duration: "Dec 2025 – Present",
+      description: [
+        "Contributed to the development of an AI-driven hiring platform, automating the end-to-end recruitment workflow.",
+        "Designed and enhanced Python-based backend services to support AI-powered candidate screening and evaluation.",
+        "Fixed 10+ production bugs and implemented 3 new features, improving platform stability and user experience.",
+        "Worked on automated email parsing and detection to extract candidate information and trigger hiring workflows.",
+        "Developed and improved a coding test environment to enhance the candidate assessment process.",
+      ],
+    },
+
     {
       company: "Platypus Box",
       role: "Full Stack Developer Intern",
@@ -254,6 +270,13 @@ codingProfiles: [
     },
   ],
   achievements: [
+     {
+      title: "Selected – AWS AI For Bharat Hackathon",
+      organization: "AWS / Bharat Hackathon",
+      date: "2025",
+      description:
+        "Developed EmerMedi, an AI-powered medical emergency routing and handover system integrated with AWS services.",
+    },
   {
     title: "ICPC Asia Regional Contest 2025 – Regionalist",
     organization: "ICPC",
