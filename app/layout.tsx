@@ -44,6 +44,68 @@ export const metadata: Metadata = {
     "NIT Patna",
     "Full Stack Developer",
     "MERN Stack",
+    "Nikhil Kumar Das",
+  "Nikhil Das",
+  "Nikhil K Das",
+  "N K Das",
+  "Nikhil Kumar Das Portfolio",
+  "Nikhil Das Portfolio",
+  "Nikhil Portfolio",
+
+  "Amazon SWE Intern",
+  "Amazon Software Engineer Intern",
+  "Software Engineer",
+  "Software Developer",
+  "Full Stack Developer",
+  "Backend Developer",
+  "Frontend Developer",
+
+  "Competitive Programmer",
+  "Competitive Programming",
+  "Data Structures and Algorithms",
+  "DSA",
+
+  "ICPC Regionalist",
+  "ICPC 2025",
+  "CodeChef 5 Star",
+  "5 Star CodeChef",
+  "Codeforces Expert",
+
+  "NIT Patna",
+  "NITP",
+  "Computer Science Engineer",
+  "Computer Science Student",
+
+  "MERN Stack Developer",
+  "React Developer",
+  "Next.js Developer",
+  "Node.js Developer",
+  "TypeScript Developer",
+  "JavaScript Developer",
+
+  "System Design",
+  "Distributed Systems",
+  "Scalable Systems",
+
+  "Artificial Intelligence",
+  "AI Engineer",
+  "Machine Learning",
+  "Generative AI",
+  "Prompt Engineering",
+
+  "Blockchain Developer",
+  "Web3 Developer",
+
+  "Jane Street",
+  "QRT",
+  "Quantitative Trading",
+  "Quant Competition",
+
+  "Hackathon Finalist",
+  "Open Source Developer",
+  "Portfolio Website",
+  "Developer Portfolio",
+
   ],
   openGraph: {
     title: "Nikhil Kumar Das | SWE & Competitive Programmer",
@@ -78,18 +140,38 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   
   // 2. SCHEMA MARKUP FOR GOOGLE KNOWLEDGE PANEL (Updated with your real links)
+  // 2. ADVANCED SCHEMA MARKUP FOR TOTAL SERP DOMINATION
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Nikhil Kumar Das",
     "url": "https://me-mu-ecru.vercel.app/",
-    "jobTitle": "Software Engineer",
-    "description": "Competitive Programmer and Software Engineering Student.",
+    "jobTitle": "Software Engineering Intern",
+    "description": "Incoming Amazon SWE Intern, ICPC Regionalist, and Top 42 Global in AMS Prior Round.",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Amazon"
+    },
     "alumniOf": {
       "@type": "CollegeOrUniversity",
       "name": "National Institute of Technology Patna",
-      "alternateName": "NITP",
+      "alternateName": ["NITP", "NIT Patna"]
     },
+    "knowsAbout": [
+      "Competitive Programming",
+      "Data Structures and Algorithms",
+      "MERN Stack Development",
+      "Artificial Intelligence",
+      "Blockchain and DApps"
+    ],
+    "award": [
+      "Global Rank 42 - AMS Prior Round (Jane Street & QRT)",
+      "Finalist - Scaler AI Hackathon out of 31,000+ participants",
+      "ICPC Asia Regionalist 2025",
+      "Knight on LeetCode",
+      "5-Star on CodeChef",
+      "Expert on Codeforces"
+    ],
     "sameAs": [
       "https://www.linkedin.com/in/nikhil94058/",
       "https://github.com/nikhil94058",
