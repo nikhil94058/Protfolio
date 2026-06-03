@@ -20,6 +20,11 @@ export const metadata: Metadata = {
   title: "Nikhil Kumar Das | Software Engineer & Competitive Programmer | NITP",
   description:
     "Official portfolio of Nikhil Kumar Das, a Software Engineer (SWE) and Competitive Programmer at National Institute of Technology Patna (NITP). Explore my projects, resume, and coding profiles.",
+  verification: {
+    google: "oOzMCR9GCwgOPKX51fPfQE30Tf3sdssrc_KQI-1C-f4", // Paste the random string here
+  },
+
+  
   keywords: [
     "Nikhil Kumar Das",
     "SWE",
