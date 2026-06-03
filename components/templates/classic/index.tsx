@@ -24,9 +24,10 @@ export const SectionTitle = ({ title }: { title: string }) => {
         <div className="w-1.5 h-10 bg-gradient-to-b from-teal-400 to-blue-600 rounded-full"></div>
         
         <div>
-          <h3 className="text-3xl font-bold text-white tracking-wide uppercase">
+          {/* SEO FIX: Changed from <h3> to <h2> for proper document outline */}
+          <h2 className="text-3xl font-bold text-white tracking-wide uppercase">
             {title}
-          </h3>
+          </h2>
           {/* Subtext decoration */}
           <div className="h-[2px] w-12 bg-teal-500/50 mt-1 group-hover:w-full transition-all duration-500 ease-out"></div>
         </div>

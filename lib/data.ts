@@ -70,35 +70,50 @@ export type PortfolioData = {
 
 export const portfolioData: PortfolioData = {
   hero: {
-    name: "Nikhil Kumar Das",
-    roles: [
-      "Full Stack Developer",
-      "Competitive Programmer",
-      "ICPC Regionalist ’25",
-      "5★ CodeChef",
-      "Expert @ Codeforces",
-      "Knight @ LeetCode",
-    ],
-    bio:
-      "Proficient in Data Structures & Algorithms. Passionate about building scalable systems, DApps, and modern web products.",
-  },
-  about: {
-    description:
-      "Hey! Myself, Nikhil Kumar Das. I am pursuing B.Tech in Computer Science and Engineering (Data Science) from NIT Patna. A 5★ Coder on CodeChef, Specialist on Codeforces, and Knight on LeetCode. I am passionate about Competitive Programming, Data Structures, and Algorithms. Currently learning and working on MERN Stack, Advanced Backend Development, AI/ML, Blockchain, DevOps, and UI/UX Design. Determined to achieve meaningful goals and contribute to impactful projects.",
-    highlights: [
-      "Competitive Programming",
-      "MERN Stack",
-      "AI/ML",
-      "Blockchain",
-      "Advanced Backend",
-      "DApps",
-      "Problem Solving",
-      "Data Structures & Algorithms",
-    ],
-  },
+name: "Nikhil Kumar Das",
+
+roles: [
+"Incoming Software Engineer Intern @ Amazon",
+"Top 42 Global Performer in Jane Street & QRT Quant Competitions",
+"ICPC Regionalist 2025",
+"5★ CodeChef | Codeforces Expert",
+"Full-Stack & Backend Engineer",
+"AI/ML Enthusiast"
+],
+
+bio:
+"Nikhil Kumar Das is an Incoming Software Engineer Intern at Amazon, Competitive Programmer, and Computer Science undergraduate at NIT Patna. He is a Top 42 Global Performer in AMS rounds sponsored by quantitative trading firms including Jane Street and QRT. With strong expertise in Data Structures & Algorithms, Distributed Systems, MERN Stack Development, and Artificial Intelligence, he builds scalable software products that impact thousands of users."
+},
+
+ about: {
+description:
+"Hey, I'm Nikhil Kumar Das — an Incoming Software Engineer Intern at Amazon, ICPC Regionalist 2025, and Computer Science student at NIT Patna. I am passionate about solving challenging algorithmic problems and building large-scale software systems. My achievements include becoming a 5★ CodeChef Coder, Codeforces Expert, and securing a Top 42 Global Rank in AMS competitions sponsored by leading quantitative trading firms such as Jane Street and QRT. Beyond competitive programming, I specialize in Full-Stack Development, Backend Engineering, Artificial Intelligence, and System Design. I enjoy creating scalable products, high-performance applications, and AI-powered solutions that solve real-world problems.",
+
+  highlights: [
+"Amazon Software Engineer Intern",
+"Top 42 Global Rank - Jane Street & QRT AMS",
+"ICPC Regionalist 2025",
+"5★ CodeChef",
+"Codeforces Expert",
+"MERN Stack Development",
+"System Design & Backend Engineering",
+"Artificial Intelligence & Machine Learning",
+"Blockchain & Web3 Development",
+"Data Structures & Algorithms"
+]
+},
   experience: [
 
-
+{
+      company: "Amazon",
+      role: "Software Engineering (SWE) Intern",
+      duration: "Upcoming (6 Months)", 
+      description: [
+        "Incoming 6-month Software Engineering Intern at Amazon.",
+        "Will be working alongside senior engineers to build, optimize, and scale enterprise-level software systems.",
+        "Focusing on backend architecture, cloud infrastructure, and solving high-impact engineering problems.",
+      ],
+    },
 
 {
       company: "StackCart",
@@ -270,6 +285,21 @@ codingProfiles: [
     },
   ],
   achievements: [
+
+    {
+      title: "Global Rank 42 – AMS Prior Round",
+      organization: " Jane Street & QRT (Qube Research & Technologies)",
+      date: "2026",
+      description:
+        "Secured Global Rank 42 in the highly competitive AMS Prior Round, an algorithmic and competitive programming contest sponsored by top quantitative trading firms Jane Street and QRT.",
+    },
+    {
+      title: "Finalist – OpenEnv × Scaler AI Hackathon",
+      organization: "Scaler School of Technology / OpenEnv",
+      date: "Apr 2026",
+      description:
+        "Selected among the Top 800 teams out of 31,000+ participants in India’s Biggest AI Hackathon. Worked as part of team Dynamics_again to build a highly optimized AI-based solution under strict competitive constraints.",
+    },
      {
       title: "Selected – AWS AI For Bharat Hackathon",
       organization: "AWS / Bharat Hackathon",

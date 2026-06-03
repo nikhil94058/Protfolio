@@ -68,14 +68,13 @@ export default function Home() {
   return (
     <div 
       className="bg-[#0d1117] min-h-screen text-gray-200 select-none selection:bg-none"
-      onDragStart={(e) => e.preventDefault()} // Block Dragging
+      onDragStart={(e) => e.preventDefault()}
     >
-      {/* CSS to forcefully disable selection everywhere */}
       <style jsx global>{`
         body {
-          -webkit-user-select: none; /* Safari */
-          -ms-user-select: none; /* IE 10 and IE 11 */
-          user-select: none; /* Standard syntax */
+          -webkit-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
         }
         img {
           -webkit-user-drag: none;
@@ -83,7 +82,7 @@ export default function Home() {
         }
       `}</style>
 
-      {/* SECURITY ALERT POPUP (Toast) */}
+      {/* SECURITY ALERT POPUP */}
       <AnimatePresence>
         {securityAlert && (
           <motion.div 
@@ -100,20 +99,27 @@ export default function Home() {
         )}
       </AnimatePresence>
 
-      <AnimatePresence mode="wait">
-        {isLoading ? (
-          <Preloader key="preloader" />
-        ) : (
-          <motion.div
-            key="content"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-          >
-            <ClassicTemplate data={portfolioData} />
-          </motion.div>
-        )}
+      {/* 
+        SEO FIX: We render the preloader on top, but the main content is ALWAYS in the DOM. 
+        Googlebot will instantly read the ClassicTemplate text while users watch the preloader. 
+      */}
+      <AnimatePresence>
+        {isLoading && <Preloader key="preloader" />}
       </AnimatePresence>
+
+      <motion.div
+        key="content"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ 
+          opacity: isLoading ? 0 : 1, 
+          y: isLoading ? 20 : 0 
+        }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        // The div takes up no height during loading so it doesn't mess up the preloader styling
+        className={isLoading ? "h-0 overflow-hidden" : "h-auto"}
+      >
+        <ClassicTemplate data={portfolioData} />
+      </motion.div>
     </div>
   );
 }

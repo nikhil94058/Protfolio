@@ -51,7 +51,7 @@ export default function SideNav({ data }: { data?: any }) {
             <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-gray-700 shadow-xl mb-4 relative">
               <img 
                 src="https://github.com/nikhil94058.png" 
-                alt="Profile" 
+                alt="Nikhil - Software Engineer and Competitive Programmer" 
                 className="w-full h-full object-cover"
               />
             </div>
